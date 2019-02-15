@@ -1,0 +1,19 @@
+<nav>
+  <a class="menu" routerLink="/">Home</a>
+</nav>
+<h1>Profile</h1>
+<h2>{{person.name}}</h2>
+<p><strong>Age: </strong>{{person.age}}</p>
+<p><strong>Gender: </strong>{{person.gender}}</p>
+<br>
+<h4>Edit information</h4>
+<table>
+  <tbody>
+  <tr>
+    <td><input type="text" placeholder="Edit your age..." [(ngModel)]="person.age"></td>
+  </tr>
+  <tr>
+    <td><input type="text" placeholder="Edit your gender..." [(ngModel)]="person.gender"></td>
+  </tr>
+  </tbody>
+</table>
