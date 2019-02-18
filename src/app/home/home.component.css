@@ -5,3 +5,8 @@
   padding: 4px;
   color: aliceblue;
 }
+.active {
+  color: black;
+  background-color: white;
+  cursor: default;
+}
