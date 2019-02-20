@@ -7,6 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { DefaultPageComponent } from './default-page/default-page.component';
+import { HeaderComponent } from './home/header/header.component';
+import { BodyComponent } from './home/body/body.component';
+import { AdminComponent } from './admin/admin.component';
+
 
 @NgModule({
   declarations: [
@@ -14,12 +18,15 @@ import { DefaultPageComponent } from './default-page/default-page.component';
     AboutComponent,
     HomeComponent,
     LoginComponent,
-    DefaultPageComponent
+    DefaultPageComponent,
+    HeaderComponent,
+    BodyComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
